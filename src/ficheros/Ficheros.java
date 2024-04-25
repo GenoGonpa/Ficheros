@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class Ficheros {
 
 	public static void main(String[] args) {
+            
+                System.out.println("Estoy introduciendo la modificacion en el proyecto de mi compañero");
 		
 		Scanner sc = new Scanner(System.in);
 		String path = "";
@@ -49,7 +51,8 @@ public class Ficheros {
 			for (int i=0; i<lista.length; i++) {
 				if(lista[i].isFile()) {
 					System.out.println("[*]" + lista[i].getName());
-					System.out.println();
+					System.out.println("Esta es la modificacion hecha por sebas");	
+							
 				}
 			}
 
